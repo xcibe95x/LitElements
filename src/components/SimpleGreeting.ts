@@ -6,7 +6,7 @@ export class SimpleGreeting extends LitElement {
   static styles = css`p { color: blue }`;
 
   @property()
-  name = 'Somebody';
+  name = 'World';
 
   render() {
     return html`<p>Hello, ${this.name}!</p>`;

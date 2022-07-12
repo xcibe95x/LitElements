@@ -1,1 +1,1 @@
-import './SimpleGreeting.js';
+import './components/SimpleGreeting.js';
