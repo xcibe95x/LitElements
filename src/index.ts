@@ -4,4 +4,5 @@ import "./components/Introductive/SimpleInput";
 import "./components/Introductive/SimpleToDo";
 import "./components/ItemsListing/MapDirective";
 import "./components/ItemsListing/FilteredList";
+import "./components/ItemsListing/RenderableArray";
 import "./components/UserCard.js";
