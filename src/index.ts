@@ -2,4 +2,5 @@
 import "./components/Introductive/SimpleGreeting";
 import "./components/Introductive/SimpleInput";
 import "./components/Introductive/SimpleToDo";
+import "./components/Introductive/ArrayMap";
 import "./components/UserCard.js";
