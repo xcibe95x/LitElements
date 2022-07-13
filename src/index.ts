@@ -11,6 +11,7 @@ import "./components/ItemsListing/FilteredList";
 import "./components/ItemsListing/RenderableArray";
 import "./components/ItemsListing/RangeDirective";
 import "./components/ItemsListing/RepeatDirective";
+import "./components/ItemsListing/ListEventHandler";
 
 // Custom
 import "./components/UserCard.js";
