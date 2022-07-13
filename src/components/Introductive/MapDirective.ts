@@ -5,7 +5,7 @@ import { map } from "lit/directives/map.js";
 // This example shows how you can use the Built In Map directive
 // It let you transform the items in an interable, it works with arrays, sets and maps
 
-@customElement("array-map")
+@customElement("map-directive")
 export class ArrayMap extends LitElement {
   @state()
   items = new Set(["Apple", "Banana", "Grape", "Orange", "Lime"]);
