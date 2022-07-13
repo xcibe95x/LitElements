@@ -10,6 +10,7 @@ import "./components/ItemsListing/MapDirective";
 import "./components/ItemsListing/FilteredList";
 import "./components/ItemsListing/RenderableArray";
 import "./components/ItemsListing/RangeDirective";
+import "./components/ItemsListing/RepeatDirective";
 
 // Custom
 import "./components/UserCard.js";
