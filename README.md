@@ -2,7 +2,7 @@
 
 First thing first, this repo is a follow up, of my precedent repo: https://github.com/xcibe95x/WebComponents
 After learning about Web Components, i moved in learning Lit, which does the same thing, but better.
-For this repo, i have generated a template, which you can find in the branch template if you want a clean one, in this template i'm using TypeScript and when you run <b>npm run start</b> it will trasnpile it to JavaScript and run a Web Server.
+For this repo, i have generated a template, which you can find in the branch template if you want a clean one, in this template i'm using TypeScript and when you run <b>npm run start</b> it will transpile it to JavaScript and run a Web Server.
 
 ## What is Lit?
 
