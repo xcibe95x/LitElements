@@ -14,7 +14,8 @@ import "./components/ItemsListing/RepeatDirective";
 import "./components/ItemsListing/ListEventHandler";
 
 // Animated Carousel Tutorial
-import "./components/Animated/MotionCarousel";
+import "./components/MotionCarousel/MotionCarousel";
 
 // Custom
-import "./components/UserCard";
+import "./components/Custom/SimpleUserCard/UserCard"; // Example from the previous tutorial
+import "./components/Custom/ImageSlideshow/ImageSlideshow";
