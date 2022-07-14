@@ -23,7 +23,7 @@ Web components do not require any special 3rd party libraries or frameworks (Rea
 
 ## What can i find in this repo?
 
-In this project, you will find all the Web Components i made from the tutorials on the docs with comments on them and the Web Component i made in the JavaScript repo ported in Lit, and other things while i learn Lit.
+In this project, you will find all the Web Components i made from the tutorials on the docs with comments on them and the Web Component i made in the JavaScript repo ported in Lit, as well as other custom components i'm going to make to learn.
 
 ## Getting Started
 
@@ -35,7 +35,7 @@ import { LitElement, html } from "lit";
 import { customElement, property } from "lit/decorators.js";
 ```
 
-Inside this for example, i imported html only, but you can also import <b>css</b> from Lit, we also have many more decoraters so you can also import <b>Query</b> which is the equivalent of a querySelector in JavaScript
+Inside this for example, i imported html only, but you can also import <b>css</b> from Lit, we also have many more decorators other than <b>@customElement("my-element")</b> so you can also import <b>Query</b> which is the equivalent of a querySelector in JavaScript
 
 You first very basic Web Component structure will finally look like this:
 
