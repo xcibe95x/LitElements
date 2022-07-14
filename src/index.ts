@@ -13,5 +13,8 @@ import "./components/ItemsListing/RangeDirective";
 import "./components/ItemsListing/RepeatDirective";
 import "./components/ItemsListing/ListEventHandler";
 
+// Animated Carousel Tutorial
+import "./components/Animated/MotionCarousel";
+
 // Custom
-import "./components/UserCard.js";
+import "./components/UserCard";

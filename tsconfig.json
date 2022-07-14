@@ -16,5 +16,5 @@
     "rootDir": "./",
     "incremental": true
   },
-  "include": ["**/*.ts"]
+  "include": ["**/*.ts", "src/components/Animated/styles.js"]
 }

@@ -24,7 +24,30 @@
 
   <body>
     <!-- Lit Element Custom Tag -->
-    <list-handler></list-handler>
+
+    <!-- Motion Carousel -->
+    <motion-carousel id="carousel">
+      <img src="https://picsum.photos/seed/1/200" />
+      <img src="https://picsum.photos/seed/2/200" />
+      <img src="https://picsum.photos/seed/3/200" />
+      <img src="https://picsum.photos/seed/4/200" />
+      <img src="https://picsum.photos/seed/5/200" />
+      <img src="https://picsum.photos/seed/6/200" />
+    </motion-carousel>
+
+    <style>
+      #carousel {
+        width: 200px;
+        height: 200px;
+        user-select: none;
+      }
+
+      #carousel:not(:defined) > * {
+        display: none;
+      }
+    </style>
+
+    <!-- End Motion Carousel -->
 
     <script type="module" src="./out-tsc/src/index.js"></script>
   </body>
