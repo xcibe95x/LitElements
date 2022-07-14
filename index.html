@@ -12,8 +12,6 @@
     <style>
       html,
       body {
-        display: flex;
-        margin: 0;
         padding: 0;
         font-family: sans-serif;
         background-color: #ededed;
@@ -24,9 +22,14 @@
 
   <body>
     <!-- Lit Element Custom Tag -->
+    <image-slideshow>
+      <img src="https://rdr.pages.dev/assets/img/splash_street.jpg" />
+      <img src="https://rdr.pages.dev/assets/img/splash_carpaint.jpg" />
+      <img src="https://rdr.pages.dev/assets/img/splash_niss2.jpg" />
+    </image-slideshow>
 
     <!-- Motion Carousel -->
-    <motion-carousel id="carousel">
+    <!-- <motion-carousel id="carousel">
       <img src="https://picsum.photos/seed/1/200" />
       <img src="https://picsum.photos/seed/2/200" />
       <img src="https://picsum.photos/seed/3/200" />
@@ -45,7 +48,7 @@
       #carousel:not(:defined) > * {
         display: none;
       }
-    </style>
+    </style> -->
 
     <!-- End Motion Carousel -->
 
