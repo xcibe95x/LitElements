@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="Description" content="Put your description here." />
+    <base href="/" />
+
+    <style>
+      html,
+      body {
+        padding: 0;
+        font-family: sans-serif;
+        background-color: #ededed;
+      }
+    </style>
+    <title>Lit Elements</title>
+  </head>
+
+  <body>
+    <motion-carousel id="carousel">
+      <img src="https://picsum.photos/seed/1/200" />
+      <img src="https://picsum.photos/seed/2/200" />
+      <img src="https://picsum.photos/seed/3/200" />
+      <img src="https://picsum.photos/seed/4/200" />
+      <img src="https://picsum.photos/seed/5/200" />
+      <img src="https://picsum.photos/seed/6/200" />
+    </motion-carousel>
+
+    <style>
+      #carousel {
+        width: 200px;
+        height: 200px;
+        user-select: none;
+      }
+
+      #carousel:not(:defined) > * {
+        display: none;
+      }
+    </style>
+
+    <script type="module" src="./out-tsc/src/index.js"></script>
+  </body>
+</html>
