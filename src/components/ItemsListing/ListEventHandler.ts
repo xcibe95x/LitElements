@@ -20,7 +20,6 @@ export class ListEventHandler extends LitElement {
     return html`
       <p>A few of my favorite things</p>
       <ul>
-        <!-- TODO: Add click event handlers for the delete button  below. -->
         ${map(
           this.things,
           (thing, index) => html`
@@ -33,6 +32,4 @@ export class ListEventHandler extends LitElement {
       </ul>
     `;
   }
-
-  // TODO: Implement method to delete an item.
 }
