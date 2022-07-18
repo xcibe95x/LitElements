@@ -27,6 +27,15 @@ In this project, you will find all the Web Components i made from the tutorials 
 
 ## Getting Started
 
+To run a testing environment type in the terminal
+
+```cmd
+npm run start
+```
+
+The project should run fine by itself, you can import more components from the index.ts and look at the example index.html to learn how it works.
+I have conveniently made a demo folder containing all HTML files to test the various components.
+
 In this repo, as i said, we are using TypeScript, so every example is in TypeScript.
 When you first initialize a TypeScript file you need to import Lit like this:
 
@@ -37,7 +46,7 @@ import { customElement, property } from "lit/decorators.js";
 
 Inside this for example, i imported html only, but you can also import <b>css</b> from Lit, we also have many more decorators other than <b>@customElement("my-element")</b> so you can also import <b>Query</b> which is the equivalent of a querySelector in JavaScript
 
-You first very basic Web Component structure will finally look like this:
+Your first very basic Web Component structure will finally look like this:
 
 ```ts
 import { LitElement, html } from "lit";
