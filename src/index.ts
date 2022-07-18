@@ -16,6 +16,9 @@ import "./components/ItemsListing/ListEventHandler";
 // Animated Carousel Tutorial
 import "./components/MotionCarousel/MotionCarousel";
 
+// Reactivity Tutorial
+import "./components/Reactivity/CoinFlip";
+
 // Custom
 import "./components/Custom/SimpleUserCard/UserCard"; // Example from the previous tutorial
 import "./components/Custom/ImageSlideshow/ImageSlideshow";
