@@ -19,6 +19,10 @@ export class SimpleGreeting extends LitElement {
   // With the rendor Method we inject our html in the page
   // As you can see we can do interpolations and use the properties we set
   render() {
-    return html`<p>Hello, ${this.name}!</p>`;
+    return html`<p>
+      Hello, ${this.name}! this is your first example component, you can find
+      all other components in the src and the demo folder, they are all imported
+      from the index.ts
+    </p>`;
   }
 }
