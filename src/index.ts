@@ -23,6 +23,11 @@ import "./components/Reactivity/ComponentUpdate";
 import "./components/Reactivity/ComputingValues";
 import "./components/Reactivity/UpdateAfter";
 
+// Custom Attribues Converters
+import "./components/CAC/DateDisplay";
+import "./components/CAC/CDateDisplay";
+import "./components/CAC/CCDateDisplay";
+
 // Custom
 import "./components/Custom/SimpleUserCard/UserCard"; // Example from the previous tutorial
 import "./components/Custom/ImageSlideshow/ImageSlideshow";

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="Description" content="Put your description here." />
+    <base href="/" />
+
+    <style>
+      html,
+      body {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        font-family: sans-serif;
+        background-color: #ededed;
+      }
+    </style>
+    <title>Lit Elements</title>
+  </head>
+
+  <body>
+    <!-- Lit Element Custom Tag -->
+    <h1>Without a custom attribute converter:</h1>
+    <date-display></date-display>
+    <script>
+      const dateDisplay = document.querySelector("date-display");
+      dateDisplay.date = new Date("05/05/22");
+    </script>
+
+    <h1>With a built in attribute converter</h1>
+    <cdate-display date-str="05/05/22"></cdate-display>
+
+    <h1>With a custom attribute converter</h1>
+    <ccdate-display date="05/05/22"></ccdate-display>
+
+    <script type="module" src="./out-tsc/src/index.js"></script>
+  </body>
+</html>
