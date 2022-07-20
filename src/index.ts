@@ -18,6 +18,10 @@ import "./components/MotionCarousel/MotionCarousel";
 
 // Reactivity Tutorial
 import "./components/Reactivity/CoinFlip";
+import "./components/Reactivity/Groceries";
+import "./components/Reactivity/ComponentUpdate";
+import "./components/Reactivity/ComputingValues";
+import "./components/Reactivity/UpdateAfter";
 
 // Custom
 import "./components/Custom/SimpleUserCard/UserCard"; // Example from the previous tutorial
