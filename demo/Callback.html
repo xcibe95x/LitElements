@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="Description" content="Put your description here." />
+    <base href="/" />
+
+    <style>
+      html,
+      body {
+        display: flex;
+        padding: 0;
+        font-family: sans-serif;
+        background-color: #ededed;
+      }
+    </style>
+    <title>Lit Elements</title>
+  </head>
+
+  <body>
+    <!-- Lit Element Custom Tag -->
+    <call-back event="handleClick"></call-back>
+    <script>
+      function handleClick() {
+        console.log("hello world");
+      }
+    </script>
+
+    <script type="module" src="./out-tsc/src/index.js"></script>
+  </body>
+</html>
